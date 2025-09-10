@@ -1,0 +1,45 @@
+/* Tác động lên thẻ con p đầu tiên là đoạn 1 */
+/* p:first-child {
+  color: red;
+  font-size: 30px;
+} */
+/* Phần tử p con cuối cùng */
+/* p:last-child {
+  color: rgb(36, 201, 77);
+  font-size: 30px;
+} */
+/* thẻ p con thứ n từ trên xuống */
+/* p:nth-child(2) {
+  color: pink;
+} */
+/* p đứng ở vị trí chẵn */
+/* p:nth-child(even) {
+  color: red;
+  font-size: 30px;
+} */
+/* p đứng ở vị trí lẻ */
+/* p:nth-child(odd) {
+  color: red;
+  font-size: 30px;
+ } */
+/* 
+n=0->1
+n=1->4
+n=2->7
+...
+*/
+/* p:nth-child(3n + 1) {
+  color: red;
+  font-size: 30px;
+} */
+/* thẻ p con thứ n từ dưới lên */
+/* p:nth-last-child(2) {
+  color: red;
+  font-size: 30px;
+} */
+
+/* thẻ p phải là thẻ con duy nhất */
+p:only-child {
+  color: blue;
+  font-size: 40px;
+}
